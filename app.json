@@ -1,0 +1,15 @@
+
+{
+    "name": "mega_sena_checker",
+    "scripts": {
+      "postdeploy": "flutter build web"
+    },
+    "environments": {
+      "test": {
+        "scripts": {
+          "test": "echo \"Running tests...\""
+        }
+      }
+    }
+  }
+  

@@ -1,1 +1,1 @@
-web: flutter build web && cd build/web && python3 -m http.server $PORT
+web: nginx -g 'daemon off;' -c $PWD/nginx.conf
