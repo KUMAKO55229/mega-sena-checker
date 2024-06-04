@@ -1,9 +1,6 @@
 {
   "name": "mega_sena_checker",
   "version": "1.0.0",
-  "scripts": {
-    "start": "nginx -g 'daemon off;' -c $PWD/nginx.conf"
-  },
   "engines": {
     "node": "14.x"
   }

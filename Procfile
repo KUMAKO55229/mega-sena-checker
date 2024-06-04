@@ -1,1 +1,1 @@
-web: nginx -g 'daemon off;' -c $PWD/nginx.conf
+web: cd build/web && python3 -m http.server $PORT
