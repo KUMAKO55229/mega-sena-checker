@@ -1,1 +1,1 @@
-web: cd build/web && python3 -m http.server $PORT
+web: vendor/bin/heroku-php-apache2 web/
